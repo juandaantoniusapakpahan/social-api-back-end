@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 
 
 app.get('/', (req, res) => {
-    res.status(200).send(`Hello World!!, I am Juanda Antonius Pakpahan.`);
+    res.status(200).send(`<h1> Hello World!!. /<h1>`);
 });
 
 app.get('/api/v1/facebook', (req, res) => {
